@@ -1,7 +1,7 @@
 name="Pradeep"
-age=28
-salary=50000.50
-is_sdet=True
+age=27
+salary=25000.50
+is_sdet=False
 
 print(name)
 print(age)
