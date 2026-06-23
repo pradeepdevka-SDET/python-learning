@@ -8,3 +8,7 @@ fruits = ["Apple", "Mango", "Orange"]
 fruits.append("Banana")
 for fruit in fruits:
     print(fruit)
+
+fruits.append("Carrot")
+
+
