@@ -2,12 +2,13 @@ nums=[1,2,3,2]
 
 # append : Adds the element at the end of the list.
 nums.append(40)
+nums.append(678)
 
 print(nums)
 
 #remove : removes the first item with the specified values
 
-nums.remove(2)
+nums.remove(678)
 print(nums)
 
 # nums.remove(5)
@@ -17,11 +18,12 @@ print(nums)
 #if negative values passes, so it starts from the end
 
 nums.pop(0)
+nums.pop()
 print(nums)
 
 # insert(index,value) : adds the element in the specified position
 # -1 : adds at then 2nd last index,
-# for adding in last index use-> .insert(len(nums),500) or use append(500)
+# for adding in last index use-> .insert(len(nums),500) or use append(500) or use any far index
 # insert basically insert the element before this index, so if will pass insert(100,5) it will append at then end, if insert(-100,5) it adds at the beginning
 
 nums.insert(0,50)
