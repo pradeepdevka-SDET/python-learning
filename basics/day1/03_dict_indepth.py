@@ -10,7 +10,7 @@ print(name)
 age=student["age"]
 print(age)
 
-# 02 get is safer than [], why : [] it is expected that key is existed, if key doesnt exist we get an error : KeyError: 'names', while get would return 'None'
+# 02 get is safer than [], why : [] it is expected that key is existed, if key doesn't exist we get an error : KeyError: 'names', while get would return 'None'
 
 name=student.get("names")
 print(name)
